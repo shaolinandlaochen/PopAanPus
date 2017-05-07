@@ -7,18 +7,36 @@
 //
 
 #import "ViewController.h"
-
+#import "oneViewController.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
-
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+//    NSMutableArray *navigationarray = [NSMutableArray arrayWithArray:self.navigationController.viewControllers];
+//    if (navigationarray.count>1) {
+//        for (int i=0; i<navigationarray.count; i++) {
+//            if (i>0) {
+//                [navigationarray removeObjectAtIndex:i];
+//            }
+//        }
+//    }
+//    self.navigationController.viewControllers = navigationarray;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    self.title=@"1111";
+    self.view.backgroundColor=[[UIColor redColor]colorWithAlphaComponent:0.3];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+-(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    oneViewController *one=[[oneViewController alloc]init];
+    [self.navigationController pushViewController:one animated:YES];
+  
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

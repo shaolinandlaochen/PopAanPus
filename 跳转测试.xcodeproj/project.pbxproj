@@ -15,6 +15,7 @@
 		385D63FB1EBEC4720063B35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385D63F91EBEC4720063B35D /* LaunchScreen.storyboard */; };
 		385D64061EBEC4720063B35D /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385D64051EBEC4720063B35D /* ____Tests.m */; };
 		385D64111EBEC4720063B35D /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385D64101EBEC4720063B35D /* ____UITests.m */; };
+		385D64201EBEC5170063B35D /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385D641F1EBEC5170063B35D /* oneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		385D640C1EBEC4720063B35D /* 跳转测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "跳转测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		385D64101EBEC4720063B35D /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		385D64121EBEC4720063B35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385D641E1EBEC5170063B35D /* oneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
+		385D641F1EBEC5170063B35D /* oneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				385D63EF1EBEC4720063B35D /* AppDelegate.m */,
 				385D63F11EBEC4720063B35D /* ViewController.h */,
 				385D63F21EBEC4720063B35D /* ViewController.m */,
+				385D641E1EBEC5170063B35D /* oneViewController.h */,
+				385D641F1EBEC5170063B35D /* oneViewController.m */,
 				385D63F41EBEC4720063B35D /* Main.storyboard */,
 				385D63F71EBEC4720063B35D /* Assets.xcassets */,
 				385D63F91EBEC4720063B35D /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				385D63F31EBEC4720063B35D /* ViewController.m in Sources */,
 				385D63F01EBEC4720063B35D /* AppDelegate.m in Sources */,
 				385D63ED1EBEC4720063B35D /* main.m in Sources */,
+				385D64201EBEC5170063B35D /* oneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
